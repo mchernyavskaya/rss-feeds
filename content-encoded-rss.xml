@@ -6,7 +6,7 @@
 
     <channel>
         <title>With content:encoded field.</title>
-        <link></link>
+        <link>https://raw.githubusercontent.com/ilya40umov/rss-feeds/master/content-encoded-rss.xml</link>
         <description>An RSS feed with some news and content:encoded field.</description>
         <lastBuildDate>Fri, 30 Jan 2015 00:00:01 +0000</lastBuildDate>
         <language>en-US</language>
