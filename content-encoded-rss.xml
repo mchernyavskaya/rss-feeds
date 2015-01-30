@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+                   xmlns:media="http://search.yahoo.com/mrss/">
+
+    <channel>
+        <title>With content:encoded field.</title>
+        <link></link>
+        <description>An RSS feed with some news and content:encoded field.</description>
+        <lastBuildDate>Fri, 30 Jan 2015 00:00:01 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>yearly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        
+        <item>
+            <title>5 Best Ways To Introduce Yourself To Scala in 2015</title>
+            <link>http://ilya40umov.com/2015/01/09/5-best-ways-to-introduce-yourself-to-scala-in-2015/</link>
+            <comments>http://ilya40umov.com/2015/01/09/5-best-ways-to-introduce-yourself-to-scala-in-2015/#comments</comments>
+            <pubDate>Fri, 09 Jan 2015 18:32:15 +0000</pubDate>
+            <dc:creator><![CDATA[ilya40umov]]></dc:creator>
+            <category><![CDATA[Scala]]></category>
+
+            <guid isPermaLink="false">http://ilya40umov.com/?p=156</guid>
+            <description><![CDATA[You might have not had a chance to fully realize that it&#8217;s already 2015, but here it is, and actually we will have to live in it for some 355 days or so. =) Therefore, as usual, for most of us the &#8230; <a href="http://ilya40umov.com/2015/01/09/5-best-ways-to-introduce-yourself-to-scala-in-2015/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://pixel.wp.com/b.gif?host=ilya40umov.com&#038;blog=47779055&#038;post=156&#038;subd=ilya40umov&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <content:encoded><![CDATA[<p style="text-align:center;"><a href="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png"><img class="alignnone size-medium wp-image-158" src="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png?w=300&#038;h=89" alt="scala-logo" width="300" height="89" /></a></p>
+<p>You might have not had a chance to fully realize that it&#8217;s already 2015, but here it is, and actually we will have to live in it for some 355 days or so. =) Therefore, as usual, for most of us the beginning of a new year means that it&#8217;s time to try out something new and shiny or perhaps just trendy. The Scala programming language has been there for a while by now, but nowadays it&#8217;s becoming more and more popular, gaining adoption by big and small companies worldwide. Thus, I&#8217;ll not be beating around the bush for long and instead will list my personal favorite sources that should help you in getting up to speed with this magnificent language(Truth to be told, if you don&#8217;t understand why you might actually want to learn Scala, I suggest that you stop reading this article right away and go looking for resources explaining the advantaged of this language over, say, Java.).</p>
+<h2>1. &#8220;Scala for the Impatient&#8221; by Cay Horstmann</h2>
+<p><a href="https://ilya40umov.files.wordpress.com/2015/01/for-impatient.png"><img class=" size-medium wp-image-160 aligncenter" src="https://ilya40umov.files.wordpress.com/2015/01/for-impatient.png?w=230&#038;h=300" alt="for-impatient" width="230" height="300" /></a></p>
+<p>&#8220;<a href="http://www.horstmann.com/scala/index.html">Scala for the Impatient</a>&#8221; is an excellent introduction to the language, especially suitable for developers familiar with Java/C#. It showcases the most important features of the language in short and clear examples. A big chunk of this book is available for free at <a href="http://typesafe.com/resources/scala-for-the-impatient">TypeSafe</a>(The company that develops Akka, Play and other cool Scala-based technoligies).</p>
+<p>So far I&#8217;ve read this book twice and even did perhaps a half of the exercises to practice the material explained. You can also skip chapters on &#8220;Parsing and Domain-Specific Languages&#8221; and &#8220;Delimited Continuations&#8221; when you first read the book and get back to them later.</p>
+<h2>2. &#8220;Functional Programming Principles in Scala&#8221; on Coursera</h2>
+<p><a href="https://ilya40umov.files.wordpress.com/2015/01/func-prog-class.png"><img class=" size-medium wp-image-161 aligncenter" src="https://ilya40umov.files.wordpress.com/2015/01/func-prog-class.png?w=300&#038;h=169" alt="func-prog-class" width="300" height="169" /></a></p>
+<p>The class &#8220;<a href="//www.coursera.org/course/progfun">Functional Programming Principles in Scala</a>&#8221; on Coursera is a superb introduction to both Scala language and Functional Programming. It coves the most important parts of the language, focusing mostly on functional approach to programming. The tasks that you are given in this course are solid and sometimes even challenging, soby the time this class is finished you will have a good hands-on experience with the language.</p>
+<p>Martin Odersky did 2 runs of this course in 2014, and I believe will do at least one or two this year as well.</p>
+<h2>3. &#8220;Learning Concurrent Programming in Scala&#8221; by Aleksandar Prokopec</h2>
+<p><a href="https://ilya40umov.files.wordpress.com/2015/01/1411os_learning-concurrent-programming-in-scala_frontcover-jpg.png"><img class=" size-medium wp-image-162 aligncenter" src="https://ilya40umov.files.wordpress.com/2015/01/1411os_learning-concurrent-programming-in-scala_frontcover-jpg.png?w=243&#038;h=300" alt="1411OS_Learning Concurrent Programming in Scala_frontcover.jpg" width="243" height="300" /></a></p>
+<p><a href="https://www.packtpub.com/application-development/learning-concurrent-programming-scala">This</a> is a very good book on concurrent programming that is inspired by a very well known &#8220;<em><a href="http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601">Java Concurrency in Practice</a></em>&#8220;, which is in turn an absolute must read for every Java developer. The Concurrent Programming in Scala starts with low-level primitives and Java Memory Model, and then explains more high-level abstractions like Akka Actors and STM. The author has actively contributed to the Scala programming language, and has worked on programming abstractions for concurrency, data-parallel programming support, and concurrent data structures for Scala.</p>
+<p>I&#8217;ve got a e-copy of this book on a sale from PacktPub, but even if I didn&#8217;t I would have gladly paid the full price for it.</p>
+<h2>4. &#8220;Principles of Reactive Programming&#8221; on Coursera</h2>
+<p><a href="https://ilya40umov.files.wordpress.com/2015/01/principles-reactive-v1-0.jpg"><img class=" size-medium wp-image-163 aligncenter" src="https://ilya40umov.files.wordpress.com/2015/01/principles-reactive-v1-0.jpg?w=300&#038;h=169" alt="principles-reactive-v1.0" width="300" height="169" /></a></p>
+<p><a href="https://www.coursera.org/course/reactive">This is also a very good and challenging class on Coursera</a> that I hope to complete in 2015, as I did&#8217;t have enough time to go through it in 2013 when it was first introduced. (I&#8217;ve heaved about this class from colleagues who participated in its first run and were very satisfied.)</p>
+<div class="embed-twitter">
+<blockquote class="twitter-tweet" width="550">
+<p>We are aiming to do Principles of Reactive Programming again in spring 2015.</p>
+<p>&mdash; Martin Odersky (@odersky) <a href="https://twitter.com/odersky/status/502075940286246912">August 20, 2014</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<h2>5. Scala, Akka, SBT documentation</h2>
+<p>Besides the aforementioned courses and books, Scala these days provides a very good set of online documentation to help you learn the language and related frameworks. For example, if you are a total newbie you might be interested in <a href="http://www.scala-lang.org/documentation/getting-started.html">Getting Started with Scala</a> and <a href="http://www.scala-sbt.org/release/tutorial/">SBT</a>(the SBT one is off-times a bit difficult to comprehend from the first read, so be prepared to re-read it again if needs be.)</p>
+<p>For more skilled engineers, there are very good references on <a href="http://docs.scala-lang.org/overviews/core/futures.html">Futures</a>, <a href="http://doc.akka.io/docs/akka/2.3.8/scala.html">Akka</a> and <a href="https://www.playframework.com/documentation/2.3.x/ScalaHome">Play Framework</a>. (And actually many more if you don&#8217;t afraid to google a bit).</p>
+<p>Wish you all a lot of good Scala experience this year!</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/ilya40umov.wordpress.com/156/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/ilya40umov.wordpress.com/156/" /></a> <img alt="" border="0" src="http://pixel.wp.com/b.gif?host=ilya40umov.com&#038;blog=47779055&#038;post=156&#038;subd=ilya40umov&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+
+            <media:thumbnail url="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png?w=150" />
+            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png?w=150" medium="image">
+                <media:title type="html">scala-logo</media:title>
+            </media:content>
+
+            <media:content url="http://2.gravatar.com/avatar/5e32552721127ac008ab6e33279f71c8?s=96&#38;d=identicon&#38;r=G" medium="image">
+                <media:title type="html">ilya40umov</media:title>
+            </media:content>
+
+            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png?w=300" medium="image">
+                <media:title type="html">scala-logo</media:title>
+            </media:content>
+
+            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/for-impatient.png?w=230" medium="image">
+                <media:title type="html">for-impatient</media:title>
+            </media:content>
+
+            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/func-prog-class.png?w=300" medium="image">
+                <media:title type="html">func-prog-class</media:title>
+            </media:content>
+
+            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/1411os_learning-concurrent-programming-in-scala_frontcover-jpg.png?w=243" medium="image">
+                <media:title type="html">1411OS_Learning Concurrent Programming in Scala_frontcover.jpg</media:title>
+            </media:content>
+
+            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/principles-reactive-v1-0.jpg?w=300" medium="image">
+                <media:title type="html">principles-reactive-v1.0</media:title>
+            </media:content>
+
+        </item>
+        
+    </channel>
+
+</rss>
