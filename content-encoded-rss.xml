@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
-                   xmlns:dc="http://purl.org/dc/elements/1.1/"
-                   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-                   xmlns:media="http://search.yahoo.com/mrss/">
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:media="http://search.yahoo.com/mrss/">
 
     <channel>
         <title>With content:encoded field.</title>
@@ -12,17 +12,69 @@
         <language>en-US</language>
         <sy:updatePeriod>yearly</sy:updatePeriod>
         <sy:updateFrequency>1</sy:updateFrequency>
-        
+
+        <item>
+            <title>5 Best Ways To Introduce Yourself To Scala in 2015</title>
+            <link>https://mchernyavska.wordpress.com/2014/12/26/why-me/</link>
+            <comments>https://mchernyavska.wordpress.com/2014/12/26/why-me/#comments</comments>
+            <pubDate>Fri, 26 Dec 2014 20:30:00 +0000</pubDate>
+            <dc:creator><![CDATA[mchernyavska]]></dc:creator>
+            <category><![CDATA[Javascript]]></category>
+
+            <guid isPermaLink="false">https://mchernyavska.wordpress.com/2014/12/26/why-me/</guid>
+            <description>
+                <![CDATA[Have you ever wondered what this means? <br/> var me = this;]]></description>
+            <content:encoded><![CDATA[No, it's not a rhetorical question!
+
+Have you ever wondered what this means?
+
+<pre>
+    var me = this;
+</pre>
+
+If you used ExtJs, you probably have.
+The main reason it's done this way is that you can later use 'me' without worrying about your current scope, in event handlers and such. Of course, these two ways are equivalent:
+
+<pre>
+    this.on('render', function() {
+        this.callMethod();
+    }, this);
+</pre>
+
+And:
+
+<pre>
+    var me = this;
+    me.on('render', function() {
+        me.callMethod();
+    });
+</pre>
+
+You could say: well, in ExtJs I can usually set the scope for any listeners and handlers myself! Why bother with "me"?
+Well, aside from convenience, there's one more reason: <strong>minification</strong>.
+
+When JS code is minified, <strong>this</strong> is not replaced. And it's four symbols. And it's usually everywhere. Guess what? <strong>Me</strong> can be minified, and this can save quite some bytes!
+
+So, me is for <strong>me</strong>. What do you think?]]></content:encoded>
+
+            <media:content url="https://mchernyavska.files.wordpress.com/2013/03/cropped-cropped-img_00371.jpg" medium="image">
+                <media:title type="html">mchernyavskaya-header-image</media:title>
+            </media:content>
+        </item>
+
+
         <item>
             <title>5 Best Ways To Introduce Yourself To Scala in 2015</title>
             <link>http://ilya40umov.com/2015/01/09/5-best-ways-to-introduce-yourself-to-scala-in-2015/</link>
-            <comments>http://ilya40umov.com/2015/01/09/5-best-ways-to-introduce-yourself-to-scala-in-2015/#comments</comments>
+            <comments>http://ilya40umov.com/2015/01/09/5-best-ways-to-introduce-yourself-to-scala-in-2015/#comments
+            </comments>
             <pubDate>Fri, 09 Jan 2015 18:32:15 +0000</pubDate>
             <dc:creator><![CDATA[ilya40umov]]></dc:creator>
             <category><![CDATA[Scala]]></category>
 
             <guid isPermaLink="false">http://ilya40umov.com/?p=156</guid>
-            <description><![CDATA[You might have not had a chance to fully realize that it&#8217;s already 2015, but here it is, and actually we will have to live in it for some 355 days or so. =) Therefore, as usual, for most of us the &#8230; <a href="http://ilya40umov.com/2015/01/09/5-best-ways-to-introduce-yourself-to-scala-in-2015/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://pixel.wp.com/b.gif?host=ilya40umov.com&#038;blog=47779055&#038;post=156&#038;subd=ilya40umov&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <description>
+                <![CDATA[You might have not had a chance to fully realize that it&#8217;s already 2015, but here it is, and actually we will have to live in it for some 355 days or so. =) Therefore, as usual, for most of us the &#8230; <a href="http://ilya40umov.com/2015/01/09/5-best-ways-to-introduce-yourself-to-scala-in-2015/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="http://pixel.wp.com/b.gif?host=ilya40umov.com&#038;blog=47779055&#038;post=156&#038;subd=ilya40umov&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
             <content:encoded><![CDATA[<p style="text-align:center;"><a href="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png"><img class="alignnone size-medium wp-image-158" src="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png?w=300&#038;h=89" alt="scala-logo" width="300" height="89" /></a></p>
 <p>You might have not had a chance to fully realize that it&#8217;s already 2015, but here it is, and actually we will have to live in it for some 355 days or so. =) Therefore, as usual, for most of us the beginning of a new year means that it&#8217;s time to try out something new and shiny or perhaps just trendy. The Scala programming language has been there for a while by now, but nowadays it&#8217;s becoming more and more popular, gaining adoption by big and small companies worldwide. Thus, I&#8217;ll not be beating around the bush for long and instead will list my personal favorite sources that should help you in getting up to speed with this magnificent language(Truth to be told, if you don&#8217;t understand why you might actually want to learn Scala, I suggest that you stop reading this article right away and go looking for resources explaining the advantaged of this language over, say, Java.).</p>
 <h2>1. &#8220;Scala for the Impatient&#8221; by Cay Horstmann</h2>
@@ -50,12 +102,14 @@
 <p>For more skilled engineers, there are very good references on <a href="http://docs.scala-lang.org/overviews/core/futures.html">Futures</a>, <a href="http://doc.akka.io/docs/akka/2.3.8/scala.html">Akka</a> and <a href="https://www.playframework.com/documentation/2.3.x/ScalaHome">Play Framework</a>. (And actually many more if you don&#8217;t afraid to google a bit).</p>
 <p>Wish you all a lot of good Scala experience this year!</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/ilya40umov.wordpress.com/156/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/ilya40umov.wordpress.com/156/" /></a> <img alt="" border="0" src="http://pixel.wp.com/b.gif?host=ilya40umov.com&#038;blog=47779055&#038;post=156&#038;subd=ilya40umov&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
 
-            <media:thumbnail url="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png?w=150" />
+            <media:thumbnail url="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png?w=150"/>
             <media:content url="https://ilya40umov.files.wordpress.com/2015/01/scala-logo.png?w=150" medium="image">
                 <media:title type="html">scala-logo</media:title>
             </media:content>
 
-            <media:content url="http://2.gravatar.com/avatar/5e32552721127ac008ab6e33279f71c8?s=96&#38;d=identicon&#38;r=G" medium="image">
+            <media:content
+                    url="http://2.gravatar.com/avatar/5e32552721127ac008ab6e33279f71c8?s=96&#38;d=identicon&#38;r=G"
+                    medium="image">
                 <media:title type="html">ilya40umov</media:title>
             </media:content>
 
@@ -67,20 +121,24 @@
                 <media:title type="html">for-impatient</media:title>
             </media:content>
 
-            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/func-prog-class.png?w=300" medium="image">
+            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/func-prog-class.png?w=300"
+                           medium="image">
                 <media:title type="html">func-prog-class</media:title>
             </media:content>
 
-            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/1411os_learning-concurrent-programming-in-scala_frontcover-jpg.png?w=243" medium="image">
+            <media:content
+                    url="https://ilya40umov.files.wordpress.com/2015/01/1411os_learning-concurrent-programming-in-scala_frontcover-jpg.png?w=243"
+                    medium="image">
                 <media:title type="html">1411OS_Learning Concurrent Programming in Scala_frontcover.jpg</media:title>
             </media:content>
 
-            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/principles-reactive-v1-0.jpg?w=300" medium="image">
+            <media:content url="https://ilya40umov.files.wordpress.com/2015/01/principles-reactive-v1-0.jpg?w=300"
+                           medium="image">
                 <media:title type="html">principles-reactive-v1.0</media:title>
             </media:content>
 
         </item>
-        
+
     </channel>
 
 </rss>
